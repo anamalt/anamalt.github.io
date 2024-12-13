@@ -1,0 +1,470 @@
+:: StoryTitle
+COMM 150 Final
+
+
+:: StoryData
+{
+  "ifid": "3B3DC973-177B-43AD-B631-B945FF9DD21B",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Welcome page",
+  "tag-colors": {
+    "estate": "red",
+    "middle": "red",
+    "journal": "orange",
+    "end": "yellow"
+  },
+  "zoom": 1
+}
+
+
+:: 011100010100 {"position":"300,550","size":"100,100"}
+0001010110101011100001010101010101001001010100101
+
+“That's what poems are for, so you don't understand a thing.”
+
+-Tatyana Tolstaya, The Slynx
+
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/Screenshot 2024-12-12 at 10.57.58 AM.png">
+
+[[continue|keep reading]]
+
+
+
+
+:: Aldous Huxley [middle] {"position":"700,1050","size":"100,100"}
+(set: $rarebooks to $rarebooks + 1)
+
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/brave.png" width="400" height="350">
+
+//"Banned in an Advanced Placement language composition class at Cape Henlopen High School in Lewes (DE). Two school board members contend that while the book has long been a staple in high school classrooms, students can now grasp the sexual and drug-related references through a quick Internet search."//
+
+Thank goodness Sandra didn't pay attention in AP Lit!
+
+[[would you like to go back to Sandra's rare books?|Rare Books]] 
+or
+(link: "read more (WARNING! You will leave the story)")[(goto-url: 'https://www.marshall.edu/library/bannedbooks/brave-new-world/')]
+
+
+
+
+:: Art Spiegelman [middle] {"position":"525,1000","size":"100,100"}
+(set: $rarebooks to $rarebooks + 1)
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/art.png" width="300" height="350">
+//"A school board in Tennessee voted unanimously this month to ban “Maus,” a Pulitzer Prize-winning graphic novel about the Holocaust, from being taught in its classrooms because the book contains material that board members said was inappropriate for students."//
+
+Luckily, Sandra didn't have to learn about the Holocaust through this book, her family is Ashkenazi.
+
+
+
+[[would you like to go back to Sandra's rare books?|Rare Books]] 
+or 
+(link: "read more (WARNING! You will leave the story)")[(goto-url: 'https://www.nytimes.com/2022/01/27/us/maus-banned-holocaust-tennessee.html#:~:text=The%20decision%20comes%20as%20the,issues.')]
+
+
+
+
+:: Beloved [end] {"position":"800,1725","size":"100,100"}
+[[exit Sandra's library for good|exit]]
+
+
+:: Brave New World [end] {"position":"675,1725","size":"100,100"}
+[[exit Sandra's library for good|exit]]
+
+
+:: George Orwell [middle] {"position":"925,975","size":"100,100"}
+(set: $rarebooks to $rarebooks + 1)
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/1984.png" width="500" height="350">
+//"At the Urbandale Community School District, which serves 4,000 students, this law made administrators flag 374 titles, some of which have been in the library for decades and haven’t been challenged in years.
+
+These include children’s picture books that discuss gender identity and stories featuring gay characters. Ironically, George Orwell’s “1984,” a cautionary tale about censorship from a totalitarian government, also made the list."//
+
+Sandra always liked //Animal Farm// better anyways
+
+[[would you like to go back to Sandra's rare books?|Rare Books]] 
+or
+(link: "read more (WARNING! You will leave the story)")[(goto-url: 'https://katv.com/news/nation-world/1984-among-hundreds-of-books-flagged-under-new-iowa-law-banning-books-with-sex-scenes-urbandale-community-school-district-crisis-in-the-classroom-george-orwell-i-am-jazz-gender-transgender-lgbt-content-sexual')]
+
+
+:: I'm coughing {"position":"125,550","size":"100,100"}
+You're sick! You're sick! Much like the underground man, who once said:
+
+"I am a sick man... I am a spiteful man. I am an unpleasant man. I think my liver is diseased." -Fyodor Dostoevsky, Notes from Underground
+
+[[continue |continue]]
+
+
+
+
+
+
+:: Journal [end] {"position":"925,1725","size":"100,100"}
+[[exit Sandra's library for good|exit]]
+ 
+
+
+:: Laura Esquivel [middle] {"position":"850,1100","size":"100,100"}
+(set: $rarebooks to $rarebooks + 1)
+
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/mexfem.png">
+
+
+//"Kids’ Right to Read responded to the removal of Laura Esquivel’s Like Water for Chocolate from classrooms in Nampa School District in Idaho. Informal complaints led the school to ban the book, despite the fact alternative assignments were offered and no formal process had been followed. Objections were raised over the sexual content in the book, which is often held as an exemplary text in the genre of magical realism and a foundational work in Mexican feminism."//
+
+Does it count if Sandra read this book in the original Spanish? //Como agua para chocolate//?
+
+[[would you like to go back to Sandra's rare books?|Rare Books]] 
+or
+(link: "read more (WARNING! You will leave the story)")[(goto-url: 'https://ncac.org/incident/like-water-for-chocolate-pulled-mid-lesson-from-nampa-high-school#:~:text=Previous%20Next,foundational%20work%20in%20Mexican%20feminism.')]
+
+
+:: No {"position":"600,675","size":"100,100"}
+Well! That's too bad. That was a good one. Sandra really loves that book. Since you didn't recognize this book, let's have a change of pace. Let's move you to Sandra's Rare Book Collection. But beware! Sandra takes very good care of these books, and doesn't want you messing things up, or worse, TELLING ANYONE about these books. Do you think you can do that? 
+
+
+[[nope, take me back to the main library|titled library]]
+[[go to Rare Books|Rare Books]]
+{add photo of navy jrotc saluting}
+
+
+:: Rare Books {"position":"725,850","size":"100,100"}
+You've made it to Sandra's rare books. While Sandra holds all of her books near and dear to her heart, these books are particularly important to her, for some reason that no one quite knows. My guess is it's because someone tried to take her books away from her once. These books in particular. For some reason. We've listed the authors here, so go ahead and pick one to read more. 
+
+[[Aldous Huxley|Aldous Huxley]]
+
+[[Toni Morrison|Toni Morrison]]
+
+[[Art Spiegelman|Art Spiegelman]]
+
+[[Laura Esquivel|Laura Esquivel]]
+
+[[Sandra Cisneros|Sandra Cisneros]]
+
+[[George Orwell|George Orwell]]
+
+Once you've clicked on one, click on another. And another. And another. (set: $rarebooks to $rarebooks) (if: $rarebooks is 1)[You've visited $rarebooks rare book.]
+(if: $rarebooks is 2)[You've visited $rarebooks rare books. Keep reading!] (if: $rarebooks is 3)[You've visited $rarebooks rare books. You're so close!] (if: $rarebooks is 4)[You've visited $rarebooks rare books. Don't you get it? Keep reading!] (if: $rarebooks is 5)[You've visited $rarebooks rare books. Please read the last one.] (if: $rarebooks is 6)[You did it. You visited all 6 of Sandra's rarest books. Now you can visit Sandra's most important book of all. I'd warn you though!!! Sandra REALLY doesn't like people reading through her journal ... ](if: $rarebooks is 6)[[click here|Sandra's Journal]]
+
+
+
+
+
+
+
+
+
+:: Sandra Cisneros [middle] {"position":"400,975","size":"100,100"}
+(set: $rarebooks to $rarebooks + 1)
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/SC.png" width="500px" height="400px">
+//"A recently established book-banning committee will consider removing four books from all South Carolina public school classroom and library collections. 
+
+The committee will hear testimony about the following books: 
+
+... 
+ ...   
+The House on Mango Street by Sandra Cisneros 
+..."//
+
+reasons, unspecified
+
+[[would you like to go back to Sandra's rare books?|Rare Books]] 
+or 
+(link: "read more (WARNING! You will leave the story)")[(goto-url: 'https://www.aclusc.org/en/press-releases/4-books-facing-statewide-ban-south-carolina-schools')]
+
+
+
+:: Sandra's Journal [journal] {"position":"550,1175","size":"100,100"}
+Are you sure you want to visit Sandra's journal?
+
+[[yes|yes]]
+
+[[no, take me back to her rare books|Rare Books]]
+
+
+
+
+:: Toni Morrison [middle] {"position":"1025,925","size":"100,100"}
+(set: $rarebooks to $rarebooks + 1)
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/beloved.png">
+//"In one of Tennessee’s book banning hot spots, the Rutherford County Board of Education voted Thursday to remove six books from high school libraries, including Toni Morrison’s “Beloved,” a Pulitzer Prize-winning novel about the horrific realities of American slavery."//
+
+At least Sandra also holds Morrison's //The Bluest Eye// in her library. Oh wait .
+
+[[would you like to go back to Sandra's rare books?|Rare Books]] 
+or
+(link: "read more (WARNING! You will leave the story)")[(goto-url: 'https://www.chalkbeat.org/tennessee/2024/09/20/library-books-beloved-banned-by-tennessee-rutherford-county-schools/')]
+
+
+:: Welcome page {"position":"600,300","size":"100,100"}
+Welcome to the Sandra's library! We've been expecting you. For awhile. We don't get many visitors, so we've been looking forward to your arrival.
+
+Sandra is busy right now doing what Sandra knows best - reading! Maybe you'll get to see her sometime soon.
+
+But don't worry, you're in good hands - we're here to help you along the journey that is Sandra's library
+
+
+Without further ado, click here to take a look at Sandra's most prized possessions - 
+
+[[her books!|library]]
+
+
+
+
+:: Yes {"position":"725,675","size":"100,100"}
+Correct! It is in fact Emma, by the one and only Jane Austen. Sandra likes to come back to this book when she wants to pretend like she understands 19th century feminist literature
+
+...
+
+
+(she's never read Emma, but frequently watches the movie adaptation starring Anya Taylor Joy)
+
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/emma.png">
+
+But congrats! You've unlocked Sandra's [[rare book collection|Rare Books]]
+
+
+
+:: book {"position":"1075,450","size":"100,100"}
+“And so I try to be kind to everything I see, and in everything I see, I see him.”
+
+"...things get broken, and sometimes they get repaired, and in most cases, you realize that no matter what gets damaged, life rearranges itself to compensate for your loss, sometimes wonderfully.”
+
+"What he knew, he knew from books, and books lied, they made things prettier.”
+
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/littlelife.png">
+
+
+
+Good choice. Excellent choice. Are you ready to dive deeper into Sandra's library?
+
+[[yes|Rare Books]]
+
+[[not yet, back to main library please|library]]
+
+
+
+
+:: comm library [end] {"position":"800,2375","size":"100,100"}
+This marks the end of your journey at Sandra's library. We appreciate you for sticking around so long. Best of luck in your future endeavors, and come back soon!
+
+
+:: continue {"position":"250,675","size":"100,100"}
+Notes from Underground, by Fyodor Dostoevsky, is a novella set in 1860s Russia, narrated by an unnamed 'Underground Man'. The story follows the Underground Man and his confused and often contradictory set of memoirs explaining his alienation from modern society.
+
+Sandra often turns to this book when she needs to understand the difference between experience and contemplation, in other words, when she's feeling like a pretentious a**hole.
+
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/dostoevsky.png">
+
+[[Enough of the Underground Man!|titled library]]
+
+
+
+
+
+:: continue journal [journal] {"position":"800,1350","size":"100,100"}
+[[continue|continue journal1]]
+
+
+
+:: continue journal1 [journal] {"position":"800,1475","size":"100,100"}
+
+(set: $journalread to $journalread) 
+[[keep reading|continue journal1]]
+(set: $journalread to $journalread + 1)
+
+
+(if: $journalread is 3)[Ugh oh. Here comes Sandra ... what do you do?]
+(if: $journalread is 3)[[hide|hide]]
+(if: $journalread is 3)[[stay|stay]]
+
+
+
+:: exit [end] {"position":"800,1875","size":"100,100"}
+You manage to exit Sandra's library. With the book in your hand, you run as far as you can away from Sandra's. 
+
+[[keep running|keep runnning]]
+
+
+
+
+:: happy :) {"position":"750,550","size":"100,100"}
+Sandra recommends you read this book:
+
+"You must be the best judge of your own happiness.”
+
+Do you recognize it yet?
+
+[[No]]
+
+[[Yes]]
+
+
+
+
+:: hide [end] {"position":"800,1600","size":"100,100"}
+"I thought I heard someone in here ... " Sandra says
+
+You manage to cunningly sneak out of Sandra's library, but not before taking one last book with you. 
+
+Which one do you take?
+
+[[Sandra's Journal|Journal]] 
+[[Beloved|Beloved]]
+[[Brave New World|Brave New World]]
+
+
+
+
+
+
+:: keep reading {"position":"450,675","size":"100,100"}
+The Slynx is set two hundred years in the future. The novel follows the lives of those surviving in what was once Moscow after what appears to be nuclear disaster. All of the character have striking physical abnormalities: atavistic tails, scales all over their bodies, claws on their feet instead of toes, and more.
+
+Sandra holds this book near and dear to her heart. For a lot of reasons, but primarly because it was the only female author that she was assigned to read in her 20th Century Russian Literature class, and it was the only book that the entirety of the class chose to sh** on for some reason ... Lol
+
+Wanna see more books in Sandra's library? Go quietly to the [[this section of her library|Rare Books]]
+
+
+:: keep runnning [end] {"position":"800,2000","size":"100,100"}
+But as you run you realize something is happening to your book. Sandra's book, that is. 
+
+[[look down at book|look at book]]
+
+
+:: library {"position":"600,425","size":"100,100"}
+I see you've made it to the library. Now for the fun part - browsing! Sandra keeps her books neat and organized, so you can't just start digging through them willy nilly. And if you start getting things messy, Sandra will probably come for you. So don't!! 
+
+To determine which books would be best for you to dive into, we need to read your vibe. 
+
+For starters, how are you feeling right now?
+
+[[happy :)]]
+
+[[011100010100]]
+
+[[tired]]
+
+[[нормально]]
+
+[[xoxo]]
+
+[[I'm coughing]]
+
+
+
+
+:: look at book [end] {"position":"800,2125","size":"100,100"}
+it's ... dissapearing? [[what's happening?|what]]
+
+
+
+:: stay {"position":"1050,1600","size":"100,100"}
+"You're not supposed to be in here. If they catch you, we'll both be in trouble. Here, hide in here"
+
+Sandra directs you to a hidden door
+[[go to door|Welcome page]]
+
+
+:: tired {"position":"850,375","size":"100,100"}
+Oh perfect! Only the Saddest book every written! Great! Thx Sandra
+
+Sandra would like you to know that when asked what his favorite book is, Troye Sivan answered //A Little Life// by Hanya Yanagihara. 
+
+Here, read a little from the [[book]]
+
+
+
+
+:: titled library {"position":"1050,775","size":"100,100"}
+You've made it to the Titled Library! That is, Sandra's library, but with some titles visible (as opposed to me just guessing a book by your vibe cuz that's a lot of work)
+
+Pick any book you'd like. If you don't know any of the titles that's not my problem just go ahead and pick one that sounds somewhat interesting.
+
+[[Notes from Undergound|I'm coughing]]
+
+[[Beowulf|нормально]]
+
+[[The Slynx|011100010100]]
+
+[[Emma|happy :)]]
+
+[[The Song of Achilles|xoxo]]
+
+[[A Little Life|tired]]
+
+
+
+
+:: what [end] {"position":"800,2250","size":"100,100"}
+And just like that, the book is gone. You turn around, and so is Sandra's library. Was any of it real?
+
+[[go home|Welcome page]]
+[[go to the community library|comm library]]
+
+
+
+:: xoxo {"position":"900,550","size":"100,100"}
+What is this???? A retelling of Homer's //The Iliad//??? With emphasis on not Achilles' perspective, but Patroclus'??????!!!!And ... it's a love story????
+
+<img src="/Users/anaaltman/Desktop/comm 150/graphics/thetis.png" width="400px" height="400px">
+
+Now that's crazy talk.
+
+This is Sandra's guilty pleasure novel. She reads it to feel something. What exactly? We don't entirely know. But Sandra doesn't want you to just know her by this book, so keep browsing in her library to see more of her collection (please). And just between you and me, I'll let you see the titles of some of the books, but DON'T tell Sandra!!!!
+
+[[back to library w/ titles|titled library]]
+
+
+:: yes [journal] {"position":"725,1200","size":"100,100"}
+//Dear diary,
+I just want to read. Why do they make it so hard?//
+
+[[keep reading?|continue journal]]
+
+
+
+
+:: нормально {"position":"475,550","size":"100,100"}
+нормально ... нормально ... нормально
+
+Hwæt! We Gardena in geardagum!
+
+
+<img src="/Users/anaaltman/Desktop/comm 150/web/graphics/beowulf.png">
+
+Have you ever heard of Beowulf? It's apparently the greatest poem ever written. Unfortunately, Sandra's library holds the Cotton Vitellius A. XV manuscript (the oldest surviving manuscript of Beowulf), so you actually can't even be in its general vicinity. Sorry! 
+
+
+
+[[go to titled library|titled library]]
+
+
+
+
+:: StoryStylesheet [stylesheet]
+tw-passage{
+  background-color: pink;
+  width: 900px
+  height: 450px;
+  padding: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+}
+
+tw-passage[tags~="middle"] {
+   text-align: center; 
+
+}
+
+
+tw-passage[tags~="journal"] {
+   background-color: lightblue;
+
+}
+
+tw-passage[tags~="end"] {
+   background-color: #e8874f;
+
+}
+
